@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container container-art">
+        <div class="screen screen-art">
+            <fieldset class="display display-art">
+                <p class="textarea" id="textarea"> </p>
+            </fieldset>
+        </div>
+        <button class="buttons buttons-art resetkey" onclick="restart()">RESET</button>
+        <div class="buttons buttons-art">
+            <div class="row row-art">
+                <button class="keys keys-art cal" value="7" onclick="expression(value)">7</button>
+                <button class="keys keys-art cal" value="8" onclick="expression(value)">8</button>
+                <button class="keys keys-art cal" value="9" onclick="expression(value)">9</button>
+                <button class="keys keys-art cal" value="*" onclick="expression(value)">*</button>
+            </div>
+            <div class="row row-art">
+                <button class="keys keys-art cal" value="4" onclick="expression(value)">4</button>
+                <button class="keys keys-art cal" value="5" onclick="expression(value)">5</button>
+                <button class="keys keys-art cal" value="6" onclick="expression(value)">6</button>
+                <button class="keys keys-art cal" value="-" onclick="expression(value)">-</button>
+            </div>
+            <div class="row row-art">
+                <button class="keys keys-art cal" value="1" onclick="expression(value)">1</button>
+                <button class="keys keys-art cal" value="2" onclick="expression(value)">2</button>
+                <button class="keys keys-art cal" value="3" onclick="expression(value)">3</button>
+                <button class="keys keys-art cal" value="+" onclick="expression(value)">+</button>
+            </div>
+            <div class="row row-art">
+                <button class="keys keys-art cal" value="0" onclick="expression(value)">0</button>
+                <button class="keys keys-art cal" value="." onclick="expression(value)">.</button>
+                <button class="keys keys-art cal" value="/" onclick="expression(value)">/</button>
+                <button class="keys keys-art" value="=" onclick="finalans()">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.container{
+    width: 26.666667%; /* 400px/1500 */
+    margin-left: 36.666667%; /* 550px/1500 */
+    margin-right: 36.666667%; /* 550px/1500 */
+    margin-top: 3.333333%; /* 50px/1500 */
+}
+
+.screen{
+    margin-bottom: 6%; /* 30px/500 */
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.keys{
+    width: 20%; /* 80px/1500 */
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    margin: 2.333333%; /* 20/1500 */
+}
+.textarea{
+    color: white;
+    font-size: 2rem;
+    text-align: right;
+}
+
